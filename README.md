@@ -18,7 +18,7 @@ Traditionally, MAC addresses have been a reliable means of pinpointing specific 
 Can we build an ML-based device-to-streaming mapping system that can predict the device (a.k.a MAC address) based on the streaming service data provided by the Nielsen meter with at least 80% prediction accuracy (rate of true positives).
 
 ## Design
-Because mesh networks naturally form a graph structured data, we have arrived at a conclusion to model our deep learning model as a Graph Neural Network (GNN).
+Because mesh networks naturally form a graph structured data, we have arrived at a conclusion to model our deep learning network as a Graph Neural Network (GNN).
 
 ### GNNS
 A GNN is an optimizable transformation on all attributes of the graph (nodes, edges, global-context) that preserves graph symmetries (permutation invariances).
@@ -30,7 +30,7 @@ __source: Sanchez-Lengeling, B., Reif, E., Pearce, A., & Wiltschko, A. (2021). A
 ### Our solution
 <img src="https://github.com/user-attachments/assets/b9f2d561-8e59-4d07-a503-7ef822462770" width="500">    
 
-In order to represent the mesh network data in the most optimal way, we have decided to introducde three types of nodes - devices, connection (streaming info.), and streaming events. The edges connecting the nodes include the likelihood of the event happening.  
+In order to represent the mesh network data in the most optimal way, we have decided to introducde three types of nodes - devices, connections (streaming info.), and streaming events. The edges connecting the nodes include the likelihood of the event happening.  
 
 <img src="https://github.com/user-attachments/assets/09c51657-f86c-47bc-8d5a-e4f66d507df5" width="500">
 
@@ -38,7 +38,7 @@ We use non-mesh household data as ground truth in order to train our network, an
 
 ## Results
 
-![image](https://github.com/user-attachments/assets/6e2cf6e8-efc4-417a-984a-c1d578c4f596)
+![image](https://github.com/user-attachments/assets/a0f4d207-4cdb-4516-ad8d-ea1528c4143a)
 
 As can be seen by the results, our solution was able to exceed the expected performance and successfully detect devices in a mesh network.
 
