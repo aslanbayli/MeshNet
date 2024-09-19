@@ -38,9 +38,14 @@ We use non-mesh household data as ground truth in order to train our network, an
 
 ## Results
 
-![image](https://github.com/user-attachments/assets/a0f4d207-4cdb-4516-ad8d-ea1528c4143a)
+<img src="https://github.com/user-attachments/assets/e7702d82-de2b-41df-b519-7193476d3658" width="700">
 
-As can be seen by the results, our solution was able to exceed the expected performance and successfully detect devices in a mesh network.
+We have run an extensive hyper-parameter optimization loop to determine the best configuration.
+
+<img src="https://github.com/user-attachments/assets/6c21cb10-2bae-4bf0-9869-0fd48239a10d" width="700">
+
+In the image above you can see a sample from one of the training loops. As can be seen by the results, our solution was able to exceed the expected performance and successfully detect devices in a mesh network. 
+
 
 ## Overcoming Project Challenges
 **Choosing the Right Machine Learning Model**
