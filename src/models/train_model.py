@@ -230,7 +230,7 @@ def main():
     #     for lr in [1e-3, 1e-4, 1e-5]:
     #         for bs in [1, 3, 7]:
     #             for hs in [32, 64, 128]:
-    #                 for dp in [0.05]:
+    #                 for dp in [0.05, 0.2, 0.4]:
     #                     model = GraphNN(100, 1, hidden_size=hs, dropout_prob=dp)
     #                     train(model, epochs=e, learning_rate=lr, batch_size=bs, hidden_size=hs, detailed=False)
 
