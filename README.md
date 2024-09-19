@@ -71,12 +71,3 @@ As can be seen by the results, our solution was able to exceed the expected perf
 - The importance of a larger, more diverse dataset for refining model accuracy.
 - Plans to access more extensive Nielsen Meter data, including different network types or more varied usage patterns.
 
-
-
-
-
-
-
-
-
-
